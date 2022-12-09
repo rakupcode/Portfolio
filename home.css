@@ -1,0 +1,101 @@
+body{
+	align-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgba(0,0,0,0.3);
+}
+div.fields{
+	font-family: BiomeW04-Light;
+	padding-right: 70%;
+}
+
+ .sidenav{
+	background-color: gray;
+	background-repeat: no-repeat;
+	height: 75%;
+	width: 21%;
+	display: none;
+	position: fixed;
+	top: 3%;
+	left: 0px;
+	padding-top: 10%;
+	border-radius: 2%;	
+}
+
+span{
+	color: rgba(0,50,0,1);
+}
+
+.sidenav a{
+	font-size: 20px;
+	font-family: BiomeW04-Light;
+	color: rgba(0,10,0,1);
+	display: block;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+.sidenav a:hover{
+	color: green;
+}
+
+.sidenav .closebtn{
+	position: absolute;
+	color: red;
+	top: 0px;
+	right: 0px;
+	font-size: 25px;
+	margin-left: 0px;	
+}
+
+
+	
+
+div.container{
+	font-family: BiomeW04-Light;
+	padding-left: 25%;
+	padding-right: 20%
+}
+
+.ad{
+	position: absolute;
+	right: 20px;
+	top: 20%;
+}
+
+h2{
+	font-family: BiomeW04-Light;
+	padding-top: 0%;
+	color: rgba(0,50,0,1);
+	font-size: 40px;
+	padding-left: 25%;
+}
+
+table{
+	height: 540px;
+	width: 60px;
+	left: 25px;
+}
+footer{
+	background-color: black;
+	text-align: center;
+	position: fixed;
+	padding: 0;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	color: rgba(125, 170, 125, 0.7);
+}
+
+div.bookshelf{
+	padding-left: 10%;
+}
+div.books{
+	width: 1080px;
+	border-bottom: 5px,black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
